@@ -1,18 +1,29 @@
-
-import './App.css'
-import ContactPage from './Pages/ContactPage'
-import SearchPage1 from './Pages/SearchPage1'
-import SearchResultPage from './Pages/SearchResultPage'
+import "./App.css";
+import ContactPage from "./Pages/ContactPage";
+import MediaTrade from "./Pages/MediaTrade";
+import SearchPage1 from "./Pages/SearchPage1";
+import SearchResultPage from "./Pages/SearchResultPage";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
 
 function App() {
-
   return (
-   <>
-   {/* <ContactPage/> */}
-   {/* <SearchPage1/> */}
-   <SearchResultPage/>
-   </>
-  )
+    <>
+      <BrowserRouter>
+        <Routes>
+          <Route path="/" element={<ContactPage />}/>
+            <Route path="/searchPage1" element={<SearchPage1 />} />
+            <Route path="/searchResultPage" element={<SearchResultPage />} />
+            <Route path="/mediaTrade" element={<MediaTrade />} />
+
+          
+        </Routes>
+      </BrowserRouter>
+
+      {/* <ContactPage/> */}
+      {/* <SearchPage1/> */}
+      {/* <SearchResultPage/> */}
+    </>
+  );
 }
 
-export default App
+export default App;
