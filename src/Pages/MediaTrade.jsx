@@ -38,7 +38,7 @@ const MediaTrade = () => {
         </div>
 
         {/* {CARD} */}
-        <div className="mt-[64px] ">
+        <div className=" md:pl-[58px] ">
         <Card />
 
         </div>

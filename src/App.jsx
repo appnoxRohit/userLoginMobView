@@ -11,10 +11,10 @@ function App() {
     <>
       <BrowserRouter>
         <Routes>
-          <Route path="/" element={<ContactPage />}/>
+          <Route path="/contactPage" element={<ContactPage />}/>
             <Route path="/searchPage1" element={<SearchPage1 />} />
             <Route path="/searchResultPage" element={<SearchResultPage />} />
-            <Route path="/mediaTrade" element={<MediaTrade />} />
+            <Route path="/" element={<MediaTrade />} />
             <Route path="/messageInvitation" element={<MessageInvitation />} />
             {/* <Route path="/new-route" element={<NewPage />} /> */}
 

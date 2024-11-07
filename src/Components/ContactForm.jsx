@@ -1,10 +1,11 @@
 import { FaChevronDown } from "react-icons/fa";
+import { Link, NavLink } from "react-router-dom";
 
 const ContactForm = () => {
   return (
-    <div>
-      <div className="w-full  mt-12 md:mt-[80px] ">
-        <h1 className="text-[40px] md:text-14 font-bold text-center">
+    <div className="">
+      <div className="w-full  mt-12 md:mt-[80px]   ">
+        <h1 className="text-[56px] md:text-14 font-bold text-center font-dm-serif">
           Contattaci
         </h1>
       </div>
@@ -59,9 +60,15 @@ const ContactForm = () => {
             className="hidden"
           />
         </div>
-        <button className="px-4  py-3 text-sm rounded-full bg-black text-white">
+        <NavLink  className="px-4 flex justify-center  py-3 text-sm rounded-full bg-black text-white" to="/messageInvitation">
+
+        <button>
           Invia Messaggio
         </button>
+
+        </NavLink>
+
+
       </form>
     </div>
   );

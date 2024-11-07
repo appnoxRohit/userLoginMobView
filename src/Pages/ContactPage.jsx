@@ -6,25 +6,21 @@ import VerticalLine from "../Components/VerticalLine";
 const ContactPage = () => {
   return (
 
-    <div className="w-full font-serif md:flex ">
+    <div className="w-full  md:flex ">
       <Sidebar />
-      
-      
-
     
       <VerticalLine />
-      <div className="px-5  md:px-[102px] md:w-[65%] ">
+      <div className="px-5   md:px-[250px] md:ml-[80px] md:w-[75%] ">
         <ContactForm />
       </div>
       <VerticalLine />
      
-     <div className="md:w-[]">
-       
      <ContactMedia />
       
-     </div>
+     
     </div>
+ 
   );
-};
+};  
 
 export default ContactPage;

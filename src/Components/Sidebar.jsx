@@ -9,7 +9,7 @@ const Sidebar = () => {
   return (
     <div className="hidden fixed border-2 md:z-30 md:w-[5%] md:flex flex-col justify-between items-center  h-screen ">
       <div className="h-14 w-14 flex justify-center items-center">
-        <Link to="/">
+        <Link to="/contactPage">
           <img src={loginBtn} alt="" className="h-8 w-8" />
         </Link>
       </div>

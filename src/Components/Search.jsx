@@ -5,9 +5,9 @@ const Search = () => {
   return (
     <div>
         <div>
-        <input className='text-[60px] md:text-[120px] md:mt-[22px]' type="text" placeholder='Cerca' />
+        <input className='text-[60px] md:text-[120px] w-full md:mt-[22px]' type="text" placeholder='Cerca' />
         </div>
-        <hr className='border-2 md:w-[1360px]  '  />
+        <hr className='border-2 md:w-[1360px]'  />
 
         <div className='flex gap-6 pt-10 '>
             <div className='flex items-center justify-center w-[76px] h-[44px] md:w-[118px] md:h-[56px] rounded-full bg-black'>

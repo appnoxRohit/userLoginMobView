@@ -24,10 +24,15 @@ const Navbar = () => {
             IT
           </option>
         </select>
+        <Link to="/contactPage">
         <img src={loginblack} className="md:hidden w-6 h-6" alt="login" />
+        </Link>
+
+
         <img src={menu} className="md:hidden w-6 h-6" alt="menu" />
 
-        <Link to="/searchPage1">        <img src={search} className="w-6 h-6" alt="search" />
+        <Link to="/searchPage1"> 
+               <img src={search} className="w-6 h-6" alt="search" />
 
         </Link>
       </div>
