@@ -6,8 +6,8 @@ import { Link } from "react-router-dom";
 
 const Navbar = () => {
   return (
-    <div className="border-2  flex items-center justify-between px-5 border-gray border-x-0 h-[72px] w-full">
-      <p className="font-normal font-dm-serif text-[28px]">Mediatrade</p>
+    <div className="border-2 md:fixed md:pl-[100px]  md:z-10 md:bg-white flex items-center justify-between px-5 border-gray border-x-0 h-[72px] w-full">
+      <p className="font-normal  font-dm-serif text-[28px]">Mediatrade</p>
 
       <div className=" flex font-inter gap-5">
         <a className="hidden md:flex text-[15px]" href="">

@@ -9,10 +9,11 @@ const MediaTrade = () => {
 
     <div className="flex ">
 
-      <Sidebar />
+     <div className="flex">
+     <Sidebar />
       <VerticalLine/>
-      
-      <div className=" w-full">
+     </div> 
+      <div className=" md:flex md:flex-col w-full">
         <Navbar />
 
         {/* {ABOVE CARD SECTION} */}
@@ -25,7 +26,7 @@ const MediaTrade = () => {
               Giorgio De Chirico
             </h1>
             <br />
-            <div className="flex justify-center md:w-full md:justify-start md:ml-[140px] md:mt-[168px]   font-dm-serif items-center text-2xl font-normal gap-2 ">
+            <div className="flex justify-center md:w-full md:justify-start md:pl-[115px] md:mt-[168px]   font-dm-serif items-center text-2xl font-normal gap-2 ">
               <h2>Risultati</h2>
               <div className="border-2 border-black  flex justify-center items-center  rounded-full  w-[68px] h-11">
                 <p>1.364</p>
@@ -35,9 +36,6 @@ const MediaTrade = () => {
 
 
         </div>
-        
-          
-        
 
         {/* {CARD} */}
         <div className="mt-[64px] ">

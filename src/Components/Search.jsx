@@ -5,7 +5,7 @@ const Search = () => {
   return (
     <div>
         <div>
-        <input className='text-[60px] md:text-[120px] md:mt-[78px]' type="text" placeholder='Cerca' />
+        <input className='text-[60px] md:text-[120px] md:mt-[22px]' type="text" placeholder='Cerca' />
         </div>
         <hr className='border-2 md:w-[1360px]  '  />
 

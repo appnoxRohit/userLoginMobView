@@ -16,7 +16,7 @@ import twelve from "../assets/Mediatrade/twelve.png";
 
 export const Card = () => {
   return (
-    <div className=" p-10 pt-0 md:flex gap-6 md:gap-[40px] md:mt-[88px] md:items-center md:justify-center md:flex-wrap">
+    <div className=" p-10 pt-0 md:pl-[64px] md:flex gap-6 md:gap-[40px] md:mt-[88px] md:items-center md:justify-center md:flex-wrap">
     <div className="  max-w-[350px] min-h[478px] md:max-w-[316px] font-inter relative shadow-custom-all ">
       <div className="absolute h-8 w-[89px] bg-[rgba(0,0,0,0.3)] text-white flex gap-2 items-center justify-center rounded-full top-[10px] left-[10px]">
             <img src={Views} alt="" className="text-white" />
