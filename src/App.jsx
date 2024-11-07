@@ -16,6 +16,7 @@ function App() {
             <Route path="/searchResultPage" element={<SearchResultPage />} />
             <Route path="/mediaTrade" element={<MediaTrade />} />
             <Route path="/messageInvitation" element={<MessageInvitation />} />
+            {/* <Route path="/new-route" element={<NewPage />} /> */}
 
 
 

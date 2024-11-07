@@ -2,12 +2,16 @@ import React from "react";
 import Navbar from "../Components/Navbar";
 import Sidebar from "../Components/Sidebar";
 import { Card } from "../Components/Card";
+import VerticalLine from "../Components/VerticalLine";
 
 const MediaTrade = () => {
   return (
 
-    <div className="flex">
+    <div className="flex ">
+
       <Sidebar />
+      <VerticalLine/>
+      
       <div className=" w-full">
         <Navbar />
 
